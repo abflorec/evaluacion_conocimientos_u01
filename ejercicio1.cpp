@@ -20,10 +20,13 @@ int main(){
         break;
         case '/':
         if(b!=0){
+               if(b!=0){
                 r=a/b;
-                cout<<r;}
+                cout<<r;
+            }
             else{
-                cout<<"no se puede"; }
+                cout<<"no se puede";
+            }
             
         break;
         default: 
